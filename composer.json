@@ -1,5 +1,5 @@
 {
-  "name": "pantheon-upstreams/wordpress-project",
+  "name": "propertyistheft/poc-composer-pantheon",
   "description": "Install Wordpress with Composer on Pantheon",
   "type": "project",
   "keywords": [],
@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "pantheon-upstreams/upstream-config": "*"
+    "propertyistheft/upstream-config": "*"
   },
   "config": {
     "vendor-dir": "vendor",
