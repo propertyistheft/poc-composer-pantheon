@@ -10,11 +10,12 @@
     },
     {
       "type": "path",
-      "url": "upstream-config"
+      "url": "upstream-configuration"
     }
   ],
   "require": {
-    "propertyistheft/upstream-config": "*"
+    "pantheon-systems/upstream-management": "^1.0",
+    "propertyistheft/upstream-configuration": "*"
   },
   "config": {
     "vendor-dir": "vendor",
@@ -23,6 +24,11 @@
     "sort-packages": true,
     "platform": {
       "php": "7.2"
+    },
+    "allow-plugins": {
+      "johnpbloch/wordpress-core-installer": true,
+      "pantheon-systems/upstream-management": true,
+      "composer/installers": true
     }
   },
   "extra": {
