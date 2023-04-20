@@ -10,12 +10,12 @@
     },
     {
       "type": "path",
-      "url": "upstream-config"
+      "url": "upstream-configuration"
     }
   ],
   "require": {
     "pantheon-systems/upstream-management": "^1.0",
-    "propertyistheft/upstream-config": "*"
+    "propertyistheft/upstream-configuration": "*"
   },
   "config": {
     "vendor-dir": "vendor",
