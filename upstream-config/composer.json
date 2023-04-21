@@ -11,7 +11,7 @@
         "wpackagist-plugin/wp-native-php-sessions": ">=0.6.9",
         "wpackagist-theme/twentynineteen": "^1.2",
         "wp-coding-standards/wpcs": "^1.2.1",
-        "wpackagist-plugin/elementor": "3.8.1"
+        "wpackagist-plugin/elementor": "3.8.3"
     },
     "require-dev": {
         "behat/mink-goutte-driver": "^1.2.1",
